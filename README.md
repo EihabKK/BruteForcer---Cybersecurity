@@ -20,7 +20,8 @@ Brutforcer is a Python script designed for ethical hacking purposes. It automate
 
 1. The user provides the URL of the target website.
 2. The user specifies the username they want to test.
-3. The user provides a text file containing a list of passwords to try.
+3. The user provides a text file containing a list of passwords to try (make sure to specify the file path of the password text file. To make it easier just move your password text file to the BruteForcer---Cybersecurity directory).
+
 4. The script sends POST requests to the login page with each username-password combination.
 5. If the login fails, it checks for the presence of a specific error message.
 6. If the login is successful, it prints the correct username and password and exits.
@@ -30,7 +31,7 @@ Brutforcer is a Python script designed for ethical hacking purposes. It automate
 1. Clone the repository:
     ```bash
     git clone https://github.com/EihabKK/BruteForcer---Cybersecurity
-    cd brutforcer
+    cd BruteForcer---Cybersecurity
     ```
 
 2. Install the required dependencies:
