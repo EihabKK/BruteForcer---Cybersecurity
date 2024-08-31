@@ -58,6 +58,4 @@ Brutforcer is a Python script designed for ethical hacking purposes. It automate
 
 This tool is for educational purposes only. Unauthorized use of this tool to gain access to a website is illegal and unethical. Always ensure you have explicit permission from the website owner before attempting to brute-force any login page.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
