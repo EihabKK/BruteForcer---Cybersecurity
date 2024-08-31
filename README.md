@@ -17,7 +17,7 @@ Brutforcer is a Python script designed for ethical hacking purposes. It automate
 ## How It Works
 
 1. The user provides the URL of the target website.
-2. The user specifies the username they want to test.
+2. The user specifies the username they want to test or a file that has a list of usernames.
 3. The user provides a text file containing a list of passwords to try.
 4. The script sends POST requests to the login page with each username-password combination.
 5. If the login fails, it checks for the presence of a specific error message.
