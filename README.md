@@ -3,6 +3,8 @@ With a fast speed of trying thousands of passwords per second on an account, it 
 
 ** In this project, I coded a the BruteForcer to bruteforce the login credentials on my own Metasploitable machine. You mgiht have to change some parts of the code (check comments in the python code) to BruteForce the website you want to do it on. **
 
+** You need to know the Username of that account **
+
 # Brutforcer
 
 Brutforcer is a Python script designed for ethical hacking purposes. It automates the brute-forcing of a login page by attempting different combinations of usernames and passwords to find the correct login credentials. This tool is intended for use in controlled environments, such as testing your own Metasploitable website, and should not be used for any illegal activities.
@@ -17,7 +19,7 @@ Brutforcer is a Python script designed for ethical hacking purposes. It automate
 ## How It Works
 
 1. The user provides the URL of the target website.
-2. The user specifies the username they want to test or a file that has a list of usernames.
+2. The user specifies the username they want to test.
 3. The user provides a text file containing a list of passwords to try.
 4. The script sends POST requests to the login page with each username-password combination.
 5. If the login fails, it checks for the presence of a specific error message.
