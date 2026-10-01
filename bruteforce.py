@@ -21,6 +21,6 @@ def cracking(username, url):   # This is the function that will bruteforce into 
 			exit # exits the program if user and pass is found
 
 
-with open(password_list, 'r') as passwords:    # Here we are opening the  the password file in "r", which means reading text file.
+with open(password_list, 'r') as passwords:    #Here we are opening the  the password file in "r", which means reading text file.
 	cracking(username,url)
 print("!!!! Password not found in list!") # if nothing is found that it prints this message
