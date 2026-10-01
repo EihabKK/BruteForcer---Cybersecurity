@@ -1,9 +1,9 @@
 # BruteForcer---Cybersecurity
 With a fast speed of trying thousands of passwords per second on an account, it allows us to break into it in just a matter of seconds or minutes in case the password for that account is not strong enough. 
 
-** In this project, I coded a the BruteForcer to bruteforce the login credentials on my own Metasploitable machine. You mgiht have to change some parts of the code (check comments in the python code) to BruteForce the website you want to do it on. **
+*** In this project, I coded a the BruteForcer to bruteforce the login credentials on my own Metasploitable machine. You mgiht have to change some parts of the code (check comments in the python code) to BruteForce the website you want to do it on. **
 
-** You need to know the Username of that account **
+*** You need to know the Username of that account ***
 
 # Brutforcer
 
